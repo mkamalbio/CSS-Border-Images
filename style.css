@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {}
+.border-img {
+    margin: 150px auto;
+    width: 260px;
+    height: 260px;
+    border: 15px solid black;
+    border-image-source: url(./images/toppng.com-free-frames-and-borders-certificate-border-frame-3d-photo-frames-960x720.png);
+    border-image-slice: 60;
+    border-image-repeat: round;
+    border-image-outset: 50px;
+    border-image-width: 40px;
+}
